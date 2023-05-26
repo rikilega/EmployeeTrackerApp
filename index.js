@@ -11,9 +11,9 @@ function mainMenu() {
         name: 'choice',
         message: 'What would you like to do?',
         choices: [
-          'View Departments',
-          'View Roles',
-          'View Employees',
+          'View All Departments',
+          'View All Roles',
+          'View All Employees',
           'Add a Department',
           'Add a Role',
           'Add an Employee',
@@ -25,13 +25,13 @@ function mainMenu() {
     .then((answers) => {
       // Handle answers
       switch (answers.choice) {
-        case 'View Departments':
+        case 'View All Departments':
           viewDepartments();
           break;
-        case 'View Roles':
+        case 'View All Roles':
           viewRoles();
           break;
-        case 'View Employees':
+        case 'View All Employees':
           viewEmployees();
           break;
         case 'Add a Department':
