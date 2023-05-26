@@ -8,7 +8,7 @@
 * [Description](#description) 
 * [Installation](#installation) 
 * [Usage](#usage) 
-* [User Video Link](#user video link)                                   
+* [User-Video-Link](#user-video-link)                                   
 * [License](#license)                             
 * [Contributing](#contributing)                     
 * [Tests](#tests)
